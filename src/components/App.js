@@ -1,7 +1,19 @@
 import React from 'react';
+
 import '../stylesSheet/App.scss';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      sheeps: 0,
+      sheepsInArray: [],
+    };
+    this.handleButton = this.handleButton.bind(this);
+  }
+  handleButton() {
+    console.log('Me han clickado');
+  }
   render() {
     return (
       <div className="App-container">
