@@ -9,6 +9,7 @@ class App extends React.Component {
       sheeps: 0,
     };
     this.handleButton = this.handleButton.bind(this);
+    this.handleResetButton = this.handleResetButton.bind(this);
   }
 
   handleButton() {
@@ -19,6 +20,15 @@ class App extends React.Component {
     this.setState((prevState) => {
       return {
         sheeps: prevState.sheeps + 1,
+      };
+    });
+  }
+
+  handleResetButton() {
+    console.log('han clickado Reset');
+    this.setState((prevState) => {
+      return {
+        sheeps: 0,
       };
     });
   }
@@ -44,7 +54,8 @@ class App extends React.Component {
             One more sheep
           </button>
           <button
-            className="form__btn resetBtn" /* onClick={this.handleResetButton} */
+            className="form__btn resetBtn"
+            onClick={this.handleResetButton}
           >
             Reset
           </button>
