@@ -1,4 +1,13 @@
 .App {
   width: 100px;
   height: 100vh;
+  background-image: url(../images/paisaje.jpg);
+}
+.App-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*   justify-content: center; */
+  align-items: center;
 }
