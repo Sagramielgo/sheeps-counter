@@ -42,3 +42,18 @@
     width: 140px;
   }
 }
+.copy {
+  margin: 10px 0 30px 0;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  /*   @include medium {
+    font-size: rem(12);
+    margin: rem(5) 0 rem(20) 0;
+  } */
+}
+.fa-paw {
+  color: fuchsia;
+}
