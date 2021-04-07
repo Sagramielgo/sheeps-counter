@@ -39,9 +39,16 @@ class App extends React.Component {
       <div className="App-container">
         <h1 className="title">Sheeps counter</h1>
         <h2 className="sheepNumber">Number of sheeps: {this.state.sheeps}</h2>
-        <button className="form__btn" onClick={this.handleButton}>
-          One more sheep
-        </button>
+        <div>
+          <button className="form__btn" onClick={this.handleButton}>
+            One more sheep
+          </button>
+          <button
+            className="form__btn resetBtn" /* onClick={this.handleResetButton} */
+          >
+            Reset
+          </button>
+        </div>
         <ul className="App-farm">{result}</ul>
       </div>
     );
