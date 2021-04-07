@@ -47,7 +47,7 @@ class App extends React.Component {
 
     return (
       <div className="App-container">
-        <h1 className="title">Sheeps counter</h1>
+        <h1 className="title">Counting sheep</h1>
         <h2 className="sheepNumber">Number of sheeps: {this.state.sheeps}</h2>
         <div>
           <button className="form__btn" onClick={this.handleButton}>
