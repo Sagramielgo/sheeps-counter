@@ -25,19 +25,25 @@
   }
 }
 .form__btn {
-  width: 180px;
-  height: 40px;
+  width: 185px;
+  height: 50px;
   font-size: 20px;
   background-color: pink;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
   margin: 0 20px;
+  @media all and (max-width: 780px) {
+    width: 135px;
+    height: 40px;
+    font-size: 15px;
+    margin: 0 10px;
+  }
 }
 .resetBtn {
   background-color: yellow;
 }
 .sheepGif {
-  width: 150px;
+  width: 180px;
   @media all and (max-width: 780px) {
     width: 140px;
   }
