@@ -11,13 +11,17 @@
   margin: 100px 0 0 0;
   font-size: 38px;
   color: white;
+  @media all and (max-width: 780px) {
+    margin: 30px 0;
+    font-size: 30px;
+  }
 }
 .sheepNumber {
   margin: 30px;
 }
 .App-farm {
   list-style: none;
-  margin: 70px 17% 0 17%;
+  margin: 70px 10% 0 10%;
   display: flex;
   flex-wrap: wrap;
   @media all and (max-width: 780px) {
@@ -45,7 +49,7 @@
 .sheepGif {
   width: 180px;
   @media all and (max-width: 780px) {
-    width: 140px;
+    width: 100px;
   }
 }
 .copy {
