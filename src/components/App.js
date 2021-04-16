@@ -61,20 +61,22 @@ class App extends React.Component {
           </button>
         </div>
         <ul className="App-farm">{result}</ul>
-        <a
-          className="copy"
-          href="https://github.com/Sagramielgo"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <h4 className="">
-            By #gitFuntastic&nbsp;
-            <span>
-              <i className="fas fa-paw "></i>
-            </span>
-            &nbsp;2021
-          </h4>
-        </a>
+        <footer className="footer">
+          <a
+            className="copy"
+            href="https://github.com/Sagramielgo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h4 className="">
+              By #gitFuntastic&nbsp;
+              <span>
+                <i className="fas fa-paw "></i>
+              </span>
+              &nbsp;2021
+            </h4>
+          </a>
+        </footer>
       </div>
     );
   }

@@ -20,10 +20,13 @@
   margin: 30px;
 }
 .App-farm {
+  width: 100%;
+  /*  min-height: 50vh; */
   list-style: none;
   margin: 70px 10% 0 10%;
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
   @media all and (max-width: 780px) {
     margin: 70px 5% 0 5%;
   }
@@ -51,6 +54,11 @@
   @media all and (max-width: 780px) {
     width: 100px;
   }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .copy {
   margin: 10px 0;
